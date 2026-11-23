@@ -1,0 +1,42 @@
+Build prompt for news-image-20261123 v1 (Monday 23 November 2026 — The World in One Day):
+
+Build a Python program (main.py + render.py) that draws one 1024x1024 PNG broadsheet
+summing up the world news of Monday 23 November 2026, using the proven broadsheet DNA:
+masthead "THE WORLD IN ONE DAY", huge serif date headline "MONDAY 23 NOVEMBER 2026",
+red italic deck line with the 3 top stories, 6-number stat strip, region bar, UTC timeline
+strip, 3 large illustrated leads, 12 smaller illustrated stories, a numbered world map
+"WHERE IT HAPPENED", an ALSO list of 20+ more stories, a DATE CHECK box, a CERTAINTY
+legend (CONFIRMED / CLAIM / REPORTED) and a sources footer. Cream paper background,
+serif display type (Noto Serif), red/teal accents. 37 stories total, every story with a
+source and a certainty tag. Deterministic: two runs byte-identical. PNG <= 1 MiB.
+
+Stories (all verified live 23 Nov 2026 morning WIB; most first reported overnight
+Sunday into Monday in Asia-Pacific time, which the rules allow — "first reported on
+23 November 2026 in any time zone"):
+Leads: Democrats clinch 258 House seats, biggest since 1992 (AP/Reuters); FBI Top-10
+fugitive 'Chapo Isidro' captured in Sinaloa, 11 killed (AP); Liverpool rout 10-man
+Man Utd 4-0 in Pochettino's first game (Reuters).
+Illustrated small: UN killer-robot talks end with no deal, two more years of talks
+(NPR); Eisenkot calls West Bank settler arson 'Jewish terrorism' (Reuters); SPLA-IO
+attack kills 24 civilians in South Sudan (AFP); UKMTO tanker incident with military
+forces in Gulf of Oman (UKMTO); WHO says fighting traps Ebola teams in Congo (Reuters);
+Bessent seeks Nvidia answers on China chip sales (Reuters); Poland says Russia twice
+tried to kill rapper Kyivstoner (AP); Myanmar calls ASEAN ruling 'unfair' (Reuters);
+thousands march in Lisbon over living costs (Reuters); Nepal PM Shah meets Modi in
+Delhi (MEA); Korea education minister quits over AI exam-cheating chaos (Korea JoongAng
+Daily); Delta glitch delays Atlanta flights (Reuters).
+ALSO list (21 more): Miley Cyrus weds Maxx Morando; Tom Jackson dies at 75; Denmark
+expels Russian attache; two supertankers ablaze after mine strikes; Iran says it downed
+a US MQ-9; 879,868 AI chips cleared for China firms; Lee vows to close AI-cheating
+loopholes; Hull stun Brighton 2-0; GOP holds 173 House seats; 410 settler attacks since
+September; Ebola cases 11,613, deaths 5,678; Nepal-India eye Janakpur-Ayodhya train;
+Seoul offers $75,000 for cheating tips; Portugal wages 37% below EU average; Min Aung
+Hlaing weighs ASEAN future; Guterres' 2026 robot-weapons deadline passes; $5m FBI
+reward stood on Chapo Isidro; United 19th, one win in 11; Delta blames glitch for 70%
+of delays; Eisenkot blames Ben-Gvir/Smotrich; Shah leads 34-strong delegation; Miley's
+wedding: Wayne Coyne officiates, 140 guests.
+DATE CHECK box (left out, NOT 23 Nov): COP31 no-deal (21 Nov), Russia 186-drone Kyiv
+raid (22 Nov), Cikande factory fire toll (22 Nov), Verstappen Las Vegas win (22 Nov),
+Wembanyama 50 pts (22 Nov), India 720/9 declared Wellington (22 Nov).
+Target: beat the 22 Nov edition #50 line (judge 988.817). No novelty mechanics — execute
+the proven DNA cleaner, with more verified stories.
